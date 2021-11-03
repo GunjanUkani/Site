@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    body
+    {
+      background-image: url("f:/wallpapers/aaltu.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+     i {
+      margin-bottom: 20px;
+    } 
+    span::before
+    {
+      content: 'UI & UX designer';
+      animation: animate infinite 10s;
+    }
+    @keyframes animate
+    {
+      0%{
+        content: 'UI & Ux designer';
+      }
+      25%{
+        content: 'Freelancer ';
+      }
+      50%{
+        content: 'Gamer';
+      }
+      75%{
+        content: 'You-tuber';
+      }
+      75%{
+        content: 'Marketer';
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link w3-animate-top"  href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w3-animate-top"  href="#bio">MY Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w3-animate-top"  href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w3-animate-top"  href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w3-animate-top"  href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+<!--       my profile             -->
+
+ <section id="home">
+  <div class="jumbotron" style="height: 300px;">
+    <div class="col-12">
+    <center><h4>I am GUNJAN UKANI</h4> <span style="font-size: 30px; background-color: aqua;"></span></div>      
+    <p> we cretae a design with HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div></center>
+  </div>
+  </section>
+  <section id="bio ">
+      <div class="container-fluid py-5 w3-animate-top">
+        <div class="row">
+          <div class="card col-sm-6">
+            <img class="img-fluid" src="f:/wallpapers/R.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Gunjan Ukani</h4>
+              <p class="card-text">UI & UX designer</p>
+              <p class="card-text">MSc in Information technology</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h1>Gunjan Ukani</h1>
+            <p>Welcome to My Portfolio ,here is some my bio presenting youWelcome to My Portfolio ,here is some my bio
+              presenting youWelcome to My Portfolio ,here is some my bio presenting youWelcome to My Portfolio ,here is
+              some my bio presenting youWelcome to My Portfolio ,here is some my bio presenting youWelcome to My
+              Portfolio ,here is some my bio presenting youWelcome to My Portfolio ,here is some my bio presenting you
+            </p>
+            <h3 style="font-family: sans-serif; margin-bottom:5px; margin-top: 40px;"><b>Profile</b></h3><br>
+            <i class="fa fa-search-location" style="font-family: 'Rubik', sans-serif;">&nbsp; &nbsp; &nbsp; Name: Gunjan
+              kani</i><br>
+            <i class="fa fa-suitcase-rolling"
+              style="font-family: 'Rubik', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Study : Msc IT</i><br>
+            <i class="fa fa-search-location" style="font-family: 'Rubik', sans-serif;">&nbsp; &nbsp; &nbsp; Occupation
+              :- UI & UX designer</i><br>
+            <i class="fa fa-location-arrow"
+              style="font-family: 'Rubik', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rajkot ,Gujarat </i>
+          </div>
+        </div>
+      </div>
+</section>
+<!--    My Portfolio        -->
+<section id="portfolio">
+
+      <div class="container-fluid w3-animate-top">
+        <div class="portfolio" style="margin-bottom: 60px;">
+          <center><h1>MY Portfolio</h1></center>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="progressbar" style="color: brown;"> <b>HTML , CSS</b></div>
+            <br>
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar bg-danger" style="border: red 2px solid; border-radius: 3px; width:100%"></div>
+            </div>
+            <div class="progressbar" style=" color: brown;"> <b>Bootstrap</b></div>
+            <br>
+            <div class="progress" style="width: 80%;border: blue 2px solid; border-radius: 3px;">
+              <div class="progress-bar bg-info" style=" width:90%"></div>
+            </div>
+            <div class="progressbar" style=" color: brown;"> <b>Javascript</b></div>
+            <br>
+            <div class="progress" style="width: 80%; border: greenyellow 2px solid; border-radius: 3px;">
+              <div class="progress-bar bg-success" style=" width:70%"></div>
+            </div>
+            </div>
+          <div class="col-sm-6">
+            <div class="progressbar" style="color: darkblue;"> <b>PHP</b></div>
+            <br>
+            <div class="progress" style="width: 80%;">
+              <div class="progress-bar bg-info" style="border: red 2px solid; border-radius: 3px; width:100%"></div>
+            </div>
+            <div class="progressbar" style=" color:darkgoldenrod;"> <b>React js</b></div>
+            <br>
+            <div class="progress" style="width: 80%;border: blue 2px solid; border-radius: 3px;">
+              <div class="progress-bar bg-dark" style=" width:90%"></div>
+            </div>
+            <div class="progressbar" style=" color:darkgreen"> <b>Marketer</b></div>
+            <br>
+            <div class="progress" style="width: 80%; border: greenyellow 2px solid; border-radius: 3px;">
+              <div class="progress-bar bg-default" style=" width:70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!-- ---------------- My Few Projects  ----------------- -->
+<section id="projects">
+<div class="container-fluid w3-animate-top">
+  <div class="portfolio" style="margin-top:60px;margin-bottom: 60px;">
+    <center><h1>MY Works </h1></center>
+  </div>
+  <div class="row">
+    <div class="col-12">
+  <h2> Here is  My few projects..</h2>
+  </div>
+  <div class="col-sm-4">
+      <img class="img-fluid" src="f:/wallpapers/R.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Gunjan Ukani</h4>
+        <p class="card-text">UI & UX designer</p>
+        <p class="card-text">MSc in Information technology</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+    
+  <div class="col-sm-4">
+    <img class="img-fluid" src="f:/wallpapers/R.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Gunjan Ukani</h4>
+      <p class="card-text">UI & UX designer</p>
+      <p class="card-text">MSc in Information technology</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+      <img class="img-fluid" src="f:/wallpapers/R.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Gunjan Ukani</h4>
+        <p class="card-text">UI & UX designer</p>
+        <p class="card-text">MSc in Information technology</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+
+
+<!--  Contact Me  -->
+<section id="contact">
+<div class="container-fluid w3-animate-top">
+  <div class="portfolio" style="margin-top:60px;margin-bottom: 60px;">
+    <center><h1>Contact Me </h1></center>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+  <h2> We touch with you...</h2> 
+</div>
+
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-6">
+    <label  class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" placeholder="First NAme" required /> 
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label  class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" placeholder="last name" required />
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label  class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" placeholder="example@gmail.com" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label  class="form-label">Address</label>
+    <input type="text" class="form-control" id="validationCustom03" required />
+    <div class="invalid-feedback">
+      Please Enter a address
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label  class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required />
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  
+  <div class="col-md-6">
+    <label class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required />
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+      <label class="form-check-label" >
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <NavLink class="btn btn-primary" to="/home" type="submit">Submit form</NavLink>
+  </div>
+</form>
+
+  </div>
+</div>
+
+</body>
+
+</html>
